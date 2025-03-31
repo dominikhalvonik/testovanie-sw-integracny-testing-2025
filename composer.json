@@ -1,0 +1,15 @@
+{
+  "name": "fpvai/simple-blog",
+  "require": {
+    "php": ">=8.0",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Blog\\": "src/classes/"
+    }
+  }
+}
